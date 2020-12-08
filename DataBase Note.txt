@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS Exams;
+
+CREATE DATABASE Exams;
+
+USE Exams;
+
+CREATE TABLE Exams(Subject VARCHAR(32), Score INTEGER);
+
+INSERT INTO Exams(Subject, Score) VALUES("English", 95),("Math",98),("Science",98);
+
+SELECT* FROM Exams;
